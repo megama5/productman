@@ -34,6 +34,10 @@ common
 	text-align: center;
 }
 
+.v-middle{
+	vertical-align: middle !important;
+}
+
 /*---------------------------------------
 header
 ----------------------------------------*/
