@@ -1,0 +1,174 @@
+/*---------------------------------------
+import
+----------------------------------------*/
+@import url('reset.css');
+@import url('fonts.css');
+
+/*---------------------------------------
+global
+----------------------------------------*/
+body{
+	background-color: #eeeeee;
+	padding-top: 40px;
+	line-height: 1.5;
+}
+
+*{
+	transition: all .3s ease;
+}
+
+/*---------------------------------------
+common
+----------------------------------------*/
+
+.container{
+	max-width: 1230px;
+	width: 100%;
+	padding: 0 15px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.text-center{
+	text-align: center;
+}
+
+/*---------------------------------------
+header
+----------------------------------------*/
+header .container{
+	margin-bottom: 95px;
+}
+
+.logo{
+	width: 30%;
+	display: inline-block;
+}
+
+.menu{
+	width: 70%;
+	display: inline-block;
+	font-size: 0;
+	text-align: right;
+	
+}
+
+.menu-item, .menu-item a{
+	font-family: 'Roboto', sans-serif;	
+	font-size: 18px;
+	color: #303030;
+}
+.menu-item{
+	display: inline-block;
+	margin-right: 35px;
+}
+
+.menu-item:last-child{
+	margin-right: 0;
+}
+
+.menu-item a{
+	text-decoration: none;
+	color: #303030;
+}
+
+.menu-item:hover i, .menu-item:hover a{
+	color: gray;
+	cursor: pointer;
+}
+
+/*---------------------------------------
+main
+----------------------------------------*/
+.slider > div{
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+
+.project-info{
+	margin-bottom: 80px;
+}
+.project-info h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 150px;
+	font-weight: bold;
+	color: #303030;
+	text-align: right;
+	text-transform: uppercase;
+	line-height: 1;
+	margin-bottom: 50px;
+}
+
+.project-info h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	color: #303030;
+	text-align: right;	
+	margin-bottom: 20px;
+}
+
+.project-info p{
+	text-align: right;
+}
+.project-link{
+	text-decoration: none;
+	color: #e10011;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.project-link:hover{
+	text-shadow: 0 0 1px #e10011;
+}
+
+.project-img{
+	position: relative;
+}
+
+.img-background{
+	position: absolute;
+	top: -22%;
+	left: -123%;
+	z-index: -1;	
+}
+
+.project-img img{
+	display: block;
+	margin: 0 auto;
+}
+
+.slider-switcher li{
+	display: inline-block;
+}
+
+.slider-btn{
+	width: 10px;
+	height: 10px;
+	background-color: #303030;
+	/*background-color: #e10011;*/
+	border-radius: 50%;
+	margin-right: 10px;
+	border: none;
+}
+
+.slider-btn-active{
+	background-color: #e10011;	
+}
+
+.slider-btn:focus{
+	outline: none;
+}
+
+.slider-btn:hover{
+	background-color: #e10011;	
+}
+
+
+/*---------------------------------------
+footer
+----------------------------------------*/
