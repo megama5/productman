@@ -41,7 +41,7 @@ common
 /*---------------------------------------
 header
 ----------------------------------------*/
-header .container{
+header {
 	margin-bottom: 95px;
 }
 
@@ -85,6 +85,10 @@ header .container{
 /*---------------------------------------
 main
 ----------------------------------------*/
+.slider-section{
+	margin-bottom: 100px;
+}
+
 .slider > div{
 	display: inline-block;
 	width: 50%;
@@ -172,6 +176,9 @@ main
 	background-color: #e10011;	
 }
 
+/*---------------------------------------
+featured-products
+----------------------------------------*/
 
 /*---------------------------------------
 footer
