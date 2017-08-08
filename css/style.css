@@ -38,6 +38,17 @@ common
 	vertical-align: middle !important;
 }
 
+.block-middle{
+	margin: 0 auto;
+}
+
+.fleft {float: left !important;}
+.fright {float: right !important;}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear:both;
+}
 /*---------------------------------------
 header
 ----------------------------------------*/
@@ -85,6 +96,10 @@ header {
 /*---------------------------------------
 main
 ----------------------------------------*/
+main{
+	margin-bottom: 112px;
+}
+
 .slider-section{
 	margin-bottom: 100px;
 }
@@ -179,7 +194,215 @@ main
 /*---------------------------------------
 featured-products
 ----------------------------------------*/
+.featured-products{
+	min-height: 1193px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	padding: 110px 71px 71px 71px;
+	box-sizing: border-box;
+	margin-bottom: 100px;
+}
+
+.section-header{
+	width: 58%;
+  margin: 0 auto;
+  margin-bottom: 73px;
+}
+.star{
+	margin-bottom: 10px;
+}
+.h2,
+.h3{
+	color: #303030;
+	font-family: Raleway;	
+
+}
+
+.h2{
+	font-size: 48px;
+	font-weight: 900;
+	/*line-height: 150px;*/
+}
+
+.h3{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.products-content>li:nth-child(1){
+	margin-bottom: 36px;
+}
+
+.product-element-w,
+.product-element{
+	height: 387px;
+	border-radius: 5px;
+	
+}
+
+.product-element-w{
+	width: 692px;
+	background: url("../img/dinamics.png") 0% no-repeat #eeeeee;
+
+}
+
+.product-element{
+	width: 328px;
+}
+
+.product-element:nth-child(2){
+	margin-left: 36px;
+}
+
+.prod2 { 
+	background: url("../img/headphones-red.png") -36% no-repeat #eeeeee;	
+}
+
+.prod3{
+	background: url("../img/red-rectungle.png") -36% no-repeat #e20008;
+}
+
+.prod4{
+	transform: scaleX(-1);
+	background: url("../img/shoes.png") 12% no-repeat #eeeeee;	
+}
+
+.prod5{
+	background: url(../img/chear.png) 49% no-repeat #eeeeee;
+  background-size: 200%;	
+}
+
+
+/*---------------------------------------
+subscribe
+----------------------------------------*/
+.subscribe .section-header{
+	margin-bottom: 37px;
+	width: 52%;
+}
+
+.subscribe-form{
+	max-width: 700px;
+	width: 100%;
+}
+.form-left{
+	width: 80%;
+	background-color: #fff;
+  height: 70px;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  box-sizing: border-box;
+  padding: 0 32px;
+}
+
+.form-left .fa{
+	line-height: 70px;
+	color: #979797;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.subscribe-input{
+	line-height: 68px;
+	border: none;
+	width: calc(100% - 20px);
+	padding-left: 10px;
+	box-sizing: border-box;
+	color: #303030;
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.subscribe-input::placeholder{
+	color: #979797;
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.subscribe-input:focus{
+	outline: none;
+}
+
+.form-right{
+	width: 20%;
+	height: 70px;
+	background-color: red;
+	border-top-right-radius: 35px;
+	border-bottom-right-radius: 35px;
+	box-sizing: border-box;
+	padding-left: 5px;
+}
+
+.form-right:hover,
+.form-right input{
+	cursor: pointer;
+}
+
+.subscribe-submit{
+    line-height: 70px;
+    float: left;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 900;
+}
+
+.arrow-right{
+    font-size: 16px;
+    margin-top: 21%;
+    border-left: 10px solid white;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
 
 /*---------------------------------------
 footer
 ----------------------------------------*/
+.social-icons{
+  max-width: 340px;
+}
+
+
+.social-icons li{
+	color: #979797;
+	font-size: 34px;
+	font-weight: 400;
+	line-height: 70px;
+	background-color: #fff;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	margin-right: 20px;
+}
+
+.social-icons li:last-child{
+	margin-right: 0;
+	margin-bottom: 65px;
+}
+.social-icons li:hover{
+	cursor: pointer;
+}
+
+.copyright{
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	/* Text style for "© Copyrigh" */
+	color: #979797;
+	margin-bottom: 30px;
+}
+
+.copyright span{
+	color: #303030;
+}
